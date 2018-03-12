@@ -63,10 +63,10 @@ $ php artisan db:seed (默认添加了10个用户)
 
 ## 启动停止(Linux系统)
 ### 以debug方式启动
-- php start.php start
+- php chatStart.php start
 
 ### 以daemon方式启动
-- php start.php start -d
+- php chatStart.php start -d
 
 ## 相关配置
 
@@ -76,3 +76,5 @@ $ php artisan db:seed (默认添加了10个用户)
 ## 说明
 
 https://github.com/sheldon9527/larvelworkerman/blob/master/app/Chat/Events.php 这个文件是聊天的主要的业务逻辑文件，根据不同的业务需求进行编程。
+
+## Star
