@@ -40,10 +40,11 @@ class Events
    {
        // debug
 
-        self::debug($client_id, $message);
+       self::debug($client_id, $message);
        $user = User::find(1);
        \Log::info($user);
        \Log::info($client_id);
+       return Gateway::sendToCurrentClient(json_encode($user));
    }
 
    /**

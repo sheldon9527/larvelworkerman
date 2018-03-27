@@ -71,7 +71,10 @@ $ php artisan db:seed (默认添加了10个用户)
 ## 相关配置
 
 - config/chat 连接服务的相关配置
-- config/cache.php   stores.chat 是redis 的配置
+
+## 测试
+- 打开浏览器输入 http://0.0.0.0:55151/chat.html
+- 输入，回复
 
 ## 说明
 

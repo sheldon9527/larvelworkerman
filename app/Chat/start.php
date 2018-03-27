@@ -39,7 +39,7 @@ $web = new WebServer(config('chat.WebServer'));
 // WebServer进程数量
 $web->count = config('chat.WebServer_count');
 // 设置站点根目录
-$web->addRoot(config('chat.webServer_domain'), __DIR__.'/../Web');
+$web->addRoot(config('chat.webServer_domain'), __DIR__.'/../../public');
 
 // register 服务必须是text协议
 $register = new Register(config('chat.text'));
